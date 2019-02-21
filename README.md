@@ -1,6 +1,8 @@
 # Loaves & Fishes 1.0
 Loaves & Fishes is currently using a system that can be time consuming by utilizing a paper system for tracking each and every dining site, for which they have over 80 locations. Afterwards, these massive pile of sheets are being manually entered into an Excel Spreadsheet. Keep in mind, Loaves & Fishes have served a record number of 1,000,000 meals in 2018, and are expected to serve 1,300,000 this year. With the record breaking numbers, we replace this laborious process with a digital system that is more efficient to the organization. This system will allow users to gather information about meals on site in real time and also manage locations and generate reports to assist with grant applications.
 
+Production URL: https://loavesandfishes.herokuapp.com/
+
 ## Built With
 * React
 * Redux-Saga
