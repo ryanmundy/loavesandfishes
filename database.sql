@@ -28,7 +28,7 @@ CREATE TABLE "location"
     "zip" integer NOT NULL,
     "county" varchar(500) NOT NULL,
     "active" BOOLEAN NOT NULL DEFAULT 'true',
-    "notes" varchar(1000),
+    "notes" varchar(5000),
     "updated_by" integer,
     "date_updated" TIMESTAMP,
     CONSTRAINT location_pk PRIMARY KEY ("id")
@@ -44,7 +44,7 @@ CREATE TABLE "meal_outlet_category"
     "id" serial NOT NULL,
     "category_name" varchar(500) NOT NULL,
     "sub_category" integer,
-    "notes" varchar(1000),
+    "notes" varchar(5000),
     "active" BOOLEAN NOT NULL DEFAULT 'true',
     "updated_by" integer,
     "date_updated" TIMESTAMP,
